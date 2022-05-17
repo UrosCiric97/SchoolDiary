@@ -9,5 +9,6 @@ namespace Persistence.Repositories
 {
     public interface IStudentRepository : IRepository<Student>
     {
+        Task<bool> AddStudentsAsync(IEnumerable<Student> students);
     }
 }
