@@ -24,5 +24,40 @@ namespace SchoolDiary.Controllers
             _mapper = mapper;
             _studentRepository = studentRepository;
         }
-    }
+        [HttpPost]
+        public async Task<IActionResult> AddStudents(IEnumerable<Student> students)
+		{
+            if (!ValidateStudentsInput(students))
+            {
+                return BadRequest("Invalid students input");
+            }
+			var result = await _studentRepository.AddStudentsAsync(students);
+            if (result)
+            {
+                return Ok();
+            }
+            return NotFound();
+		}
+        private bool ValidateStudentsInput(IEnumerable<Student> students)
+        {
+            var fifthGradeCounter = 0;
+            var sixthGradeCounter = 0;
+            foreach (var student in students)
+            {
+                if (student.Class.Value == 5)
+                {
+                    fifthGradeCounter = fifthGradeCounter++;  
+                }
+                if (student.Class.Value == 6)
+                {
+                    sixthGradeCounter = sixthGradeCounter++;
+                }
+            }
+            if (fifthGradeCounter == 20 && sixthGradeCounter == 20 && students.Count() == 40)
+            {
+                return true;
+            }
+            return false;
+        }
+	}
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hQP6LsuvDiP1mEzIhIp8YlAR5w8bUItpMMFSNJF8y3I2EQv/8k3e+U33qE/TDOs8hfDqde1cm8p7lJmL9b4cDA==",
+  "dgSpecHash": "XppolLGzhuxP1wsQdaF+edG2vRrRfbo4zQpQ4vd767L9Aajjw+ixpt63B4ULpMAfAy5Ffh6hk7eDN7W8rf1j1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\source\\repos\\SchoolDiary\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\Stefan\\source\\SchoolDiary\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

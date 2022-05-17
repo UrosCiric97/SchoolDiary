@@ -5851,19 +5851,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PC\\.nuget\\packages\\": {}
+    "C:\\Users\\Stefan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\source\\repos\\SchoolDiary\\SchoolDiary\\SchoolDiary.csproj",
+      "projectUniqueName": "C:\\Users\\Stefan\\source\\SchoolDiary\\SchoolDiary\\SchoolDiary.csproj",
       "projectName": "SchoolDiary",
-      "projectPath": "C:\\Users\\PC\\source\\repos\\SchoolDiary\\SchoolDiary\\SchoolDiary.csproj",
-      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\source\\repos\\SchoolDiary\\SchoolDiary\\obj\\",
+      "projectPath": "C:\\Users\\Stefan\\source\\SchoolDiary\\SchoolDiary\\SchoolDiary.csproj",
+      "packagesPath": "C:\\Users\\Stefan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Stefan\\source\\SchoolDiary\\SchoolDiary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Stefan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5877,8 +5877,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\PC\\source\\repos\\SchoolDiary\\Persistence\\Persistence.csproj": {
-              "projectPath": "C:\\Users\\PC\\source\\repos\\SchoolDiary\\Persistence\\Persistence.csproj"
+            "C:\\Users\\Stefan\\source\\SchoolDiary\\Persistence\\Persistence.csproj": {
+              "projectPath": "C:\\Users\\Stefan\\source\\SchoolDiary\\Persistence\\Persistence.csproj"
             }
           }
         }
@@ -5916,7 +5916,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }

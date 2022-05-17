@@ -18,5 +18,12 @@ namespace Persistence.RepositoryImplementations
             _context = context;
             _mapper = mapper;
         }
-    }
+
+		public async Task<bool> AddStudentsAsync(IEnumerable<Student> students)
+		{
+            _context.Students.AddRange(students);
+            return await _context.SaveChangesAsync() > 0;
+
+		}
+	}
 }
