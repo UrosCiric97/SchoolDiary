@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YnlDIQL0Q00JXw54ctXNX3L0THiqQp1vWWbS9A8nLsMhCEVIJnDHn+BNAkUqFAYqmUmuiUnhDNcqTAaoXRWlWA==",
+  "dgSpecHash": "NccaSxhs7k5B0LkNXdYQvj7t34tn7ejiktfpFej51A4o5am5vpz9l0Voc6cTpbWfUirKO19HyFGdi3LC6YZb0Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Stefan\\source\\SchoolDiary\\SchoolDiary\\SchoolDiary.csproj",
+  "projectFilePath": "C:\\Users\\Stefan\\Source\\Repos\\SchoolDiary\\SchoolDiary\\SchoolDiary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stefan\\.nuget\\packages\\automapper\\7.0.1\\automapper.7.0.1.nupkg.sha512",
     "C:\\Users\\Stefan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\5.0.1\\automapper.extensions.microsoft.dependencyinjection.5.0.1.nupkg.sha512",

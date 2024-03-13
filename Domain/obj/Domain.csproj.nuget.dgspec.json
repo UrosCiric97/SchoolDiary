@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Stefan\\source\\SchoolDiary\\Domain\\Domain.csproj": {}
+    "C:\\Users\\Stefan\\Source\\Repos\\SchoolDiary\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Stefan\\source\\SchoolDiary\\Domain\\Domain.csproj": {
+    "C:\\Users\\Stefan\\Source\\Repos\\SchoolDiary\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Stefan\\source\\SchoolDiary\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Stefan\\Source\\Repos\\SchoolDiary\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Stefan\\source\\SchoolDiary\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Stefan\\Source\\Repos\\SchoolDiary\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Stefan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Stefan\\source\\SchoolDiary\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Stefan\\Source\\Repos\\SchoolDiary\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Stefan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,7 +45,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -54,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
