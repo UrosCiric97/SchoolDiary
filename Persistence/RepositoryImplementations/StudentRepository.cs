@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Persistence.RepositoryImplementations
 {
-    public class StudentRepository : Repository<Student>, IStudentRepository
+    public class StudentRepository : Repository<User>, IStudentRepository
     {
         private DataContext _context;
         private IMapper _mapper;
@@ -19,7 +19,7 @@ namespace Persistence.RepositoryImplementations
             _mapper = mapper;
         }
 
-		public async Task<bool> AddStudentsAsync(IEnumerable<Student> students)
+		public async Task<bool> AddStudentsAsync(IEnumerable<User> students)
 		{
             _context.Students.AddRange(students);
             return await _context.SaveChangesAsync() > 0;

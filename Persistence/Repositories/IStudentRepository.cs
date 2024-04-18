@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace Persistence.Repositories
 {
-    public interface IStudentRepository : IRepository<Student>
+    public interface IStudentRepository : IRepository<User>
     {
-        Task<bool> AddStudentsAsync(IEnumerable<Student> students);
+        Task<bool> AddStudentsAsync(IEnumerable<User> students);
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Persistence.Repositories
 {
-    public interface ITeacherRepository : IRepository<Teacher>
+    public interface ITeacherRepository : IRepository<User>
     {
     }
 }

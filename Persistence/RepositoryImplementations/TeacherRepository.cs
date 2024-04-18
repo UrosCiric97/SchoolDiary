@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Persistence.RepositoryImplementations
 {
-    public class TeacherRepository : Repository<Teacher>, ITeacherRepository
+    public class TeacherRepository : Repository<User>, ITeacherRepository
     {
         private DataContext _context;
         private IMapper _mapper;

@@ -10,7 +10,7 @@ namespace Domain
 	{
 		public Guid StudentId { get; set; }
 		public Guid GradeId { get; set; }
-		public Student Student { get; set; }
+		public User Student { get; set; }
 		public Grade Grade { get; set; }
 	}
 }

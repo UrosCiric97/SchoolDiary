@@ -25,7 +25,7 @@ namespace SchoolDiary.Controllers
             _studentRepository = studentRepository;
         }
         [HttpPost]
-        public async Task<IActionResult> AddStudents(IEnumerable<Student> students)
+        public async Task<IActionResult> AddStudents(IEnumerable<User> students)
 		{
             if (!ValidateStudentsInput(students))
             {
@@ -38,7 +38,7 @@ namespace SchoolDiary.Controllers
             }
             return NotFound();
 		}
-        private bool ValidateStudentsInput(IEnumerable<Student> students)
+        private bool ValidateStudentsInput(IEnumerable<User> students)
         {
             var fifthGradeCounter = 0;
             var sixthGradeCounter = 0;

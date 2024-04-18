@@ -25,7 +25,7 @@ namespace SchoolDiary.Controllers
             _teacherRepository = teacherRepository;
         }
         [HttpPost]
-        public async Task<IActionResult> AddRange(IEnumerable<Teacher> teachers)
+        public async Task<IActionResult> AddRange(IEnumerable<User> teachers)
         {
             if (teachers.Count() != 5)
             {

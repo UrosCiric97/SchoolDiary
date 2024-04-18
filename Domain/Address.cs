@@ -12,6 +12,6 @@ namespace Domain
         public string CityName { get; set; }
         public string StreetName { get; set; }
         public int StreetNumber { get; set; }
-        public Student Student { get; set; }
+        public User User { get; set; }
     }
 }
